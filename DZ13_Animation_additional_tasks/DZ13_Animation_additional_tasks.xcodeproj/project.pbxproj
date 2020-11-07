@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC30AA86254F351B00592426 /* TickleGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC30AA85254F351B00592426 /* TickleGestureRecognizer.swift */; };
+		AC4CA00A253B02390015879C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4CA009253B02390015879C /* AppDelegate.swift */; };
+		AC4CA00C253B02390015879C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4CA00B253B02390015879C /* SceneDelegate.swift */; };
+		AC4CA00E253B02390015879C /* YandexGRController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4CA00D253B02390015879C /* YandexGRController.swift */; };
+		AC4CA011253B02390015879C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4CA00F253B02390015879C /* Main.storyboard */; };
+		AC4CA016253B023A0015879C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4CA015253B023A0015879C /* Assets.xcassets */; };
+		AC4CA019253B023A0015879C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4CA017253B023A0015879C /* LaunchScreen.storyboard */; };
+		AC4CA028253B06130015879C /* Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4CA027253B06130015879C /* Gestures.swift */; };
+		AC4CA02A253B07770015879C /* LongTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4CA029253B07770015879C /* LongTapView.swift */; };
+		AC5D6B432544287E00E273DF /* MonkeyGRController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D6B422544287E00E273DF /* MonkeyGRController.swift */; };
+		AC5D6B4725442A3D00E273DF /* chomp.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC5D6B4525442A3D00E273DF /* chomp.caf */; };
+		AC5D6B4825442A3D00E273DF /* laugh.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC5D6B4625442A3D00E273DF /* laugh.caf */; };
+		ACA4FCDE2552E48800A0F27C /* ShakingGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4FCDD2552E48800A0F27C /* ShakingGestureRecognizer.swift */; };
+		ACA4FCE12553FD3500A0F27C /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4FCE02553FD3500A0F27C /* StarView.swift */; };
+		ACA4FCE32553FD8C00A0F27C /* StarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA4FCE22553FD8C00A0F27C /* StarView.xib */; };
+		ACC00795254148F4007D8393 /* ForceGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC00794254148F4007D8393 /* ForceGestureRecognizer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC30AA85254F351B00592426 /* TickleGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickleGestureRecognizer.swift; sourceTree = "<group>"; };
+		AC4CA006253B02390015879C /* DZ13_Animation_additional_tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZ13_Animation_additional_tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4CA009253B02390015879C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC4CA00B253B02390015879C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC4CA00D253B02390015879C /* YandexGRController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexGRController.swift; sourceTree = "<group>"; };
+		AC4CA010253B02390015879C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC4CA015253B023A0015879C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC4CA018253B023A0015879C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC4CA01A253B023A0015879C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4CA027253B06130015879C /* Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestures.swift; sourceTree = "<group>"; };
+		AC4CA029253B07770015879C /* LongTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTapView.swift; sourceTree = "<group>"; };
+		AC5D6B422544287E00E273DF /* MonkeyGRController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyGRController.swift; sourceTree = "<group>"; };
+		AC5D6B4525442A3D00E273DF /* chomp.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = chomp.caf; sourceTree = "<group>"; };
+		AC5D6B4625442A3D00E273DF /* laugh.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = laugh.caf; sourceTree = "<group>"; };
+		ACA4FCDD2552E48800A0F27C /* ShakingGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakingGestureRecognizer.swift; sourceTree = "<group>"; };
+		ACA4FCE02553FD3500A0F27C /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		ACA4FCE22553FD8C00A0F27C /* StarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StarView.xib; sourceTree = "<group>"; };
+		ACC00794254148F4007D8393 /* ForceGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceGestureRecognizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC4CA003253B02390015879C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC4C9FFD253B02390015879C = {
+			isa = PBXGroup;
+			children = (
+				AC4CA008253B02390015879C /* DZ13_Animation_additional_tasks */,
+				AC4CA007253B02390015879C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC4CA007253B02390015879C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC4CA006253B02390015879C /* DZ13_Animation_additional_tasks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC4CA008253B02390015879C /* DZ13_Animation_additional_tasks */ = {
+			isa = PBXGroup;
+			children = (
+				AC4CA021253B04D80015879C /* Resources */,
+				AC4CA020253B04B50015879C /* Application */,
+				AC4CA022253B053E0015879C /* Tasks */,
+			);
+			path = DZ13_Animation_additional_tasks;
+			sourceTree = "<group>";
+		};
+		AC4CA020253B04B50015879C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AC4CA017253B023A0015879C /* LaunchScreen.storyboard */,
+				AC4CA009253B02390015879C /* AppDelegate.swift */,
+				AC4CA00B253B02390015879C /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AC4CA021253B04D80015879C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC5D6B442544292F00E273DF /* Audio Files */,
+				AC4CA015253B023A0015879C /* Assets.xcassets */,
+				AC4CA01A253B023A0015879C /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC4CA022253B053E0015879C /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				AC4CA023253B05550015879C /* Storyboard */,
+				AC4CA024253B05750015879C /* YandexGestureRecognizer */,
+				AC5D6B412544280A00E273DF /* MonkeyGestureRecognizer */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		AC4CA023253B05550015879C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AC4CA00F253B02390015879C /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AC4CA024253B05750015879C /* YandexGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				AC4CA026253B05ED0015879C /* Common */,
+				AC4CA025253B05DF0015879C /* View */,
+				AC4CA00D253B02390015879C /* YandexGRController.swift */,
+			);
+			path = YandexGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		AC4CA025253B05DF0015879C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC4CA029253B07770015879C /* LongTapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC4CA026253B05ED0015879C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AC4CA027253B06130015879C /* Gestures.swift */,
+				ACC00794254148F4007D8393 /* ForceGestureRecognizer.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AC5D6B412544280A00E273DF /* MonkeyGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				ACA4FCDF2553FD1600A0F27C /* View */,
+				AC5D6B422544287E00E273DF /* MonkeyGRController.swift */,
+				AC30AA85254F351B00592426 /* TickleGestureRecognizer.swift */,
+				ACA4FCDD2552E48800A0F27C /* ShakingGestureRecognizer.swift */,
+			);
+			path = MonkeyGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		AC5D6B442544292F00E273DF /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC5D6B4525442A3D00E273DF /* chomp.caf */,
+				AC5D6B4625442A3D00E273DF /* laugh.caf */,
+			);
+			path = "Audio Files";
+			sourceTree = "<group>";
+		};
+		ACA4FCDF2553FD1600A0F27C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACA4FCE02553FD3500A0F27C /* StarView.swift */,
+				ACA4FCE22553FD8C00A0F27C /* StarView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC4CA005253B02390015879C /* DZ13_Animation_additional_tasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4CA01D253B023A0015879C /* Build configuration list for PBXNativeTarget "DZ13_Animation_additional_tasks" */;
+			buildPhases = (
+				AC4CA002253B02390015879C /* Sources */,
+				AC4CA003253B02390015879C /* Frameworks */,
+				AC4CA004253B02390015879C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZ13_Animation_additional_tasks;
+			productName = DZ13_Animation_additional_tasks;
+			productReference = AC4CA006253B02390015879C /* DZ13_Animation_additional_tasks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC4C9FFE253B02390015879C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Игорь Никифоров";
+				TargetAttributes = {
+					AC4CA005253B02390015879C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = AC4CA001253B02390015879C /* Build configuration list for PBXProject "DZ13_Animation_additional_tasks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC4C9FFD253B02390015879C;
+			productRefGroup = AC4CA007253B02390015879C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC4CA005253B02390015879C /* DZ13_Animation_additional_tasks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC4CA004253B02390015879C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5D6B4725442A3D00E273DF /* chomp.caf in Resources */,
+				AC4CA019253B023A0015879C /* LaunchScreen.storyboard in Resources */,
+				AC5D6B4825442A3D00E273DF /* laugh.caf in Resources */,
+				AC4CA016253B023A0015879C /* Assets.xcassets in Resources */,
+				ACA4FCE32553FD8C00A0F27C /* StarView.xib in Resources */,
+				AC4CA011253B02390015879C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC4CA002253B02390015879C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4CA00E253B02390015879C /* YandexGRController.swift in Sources */,
+				ACC00795254148F4007D8393 /* ForceGestureRecognizer.swift in Sources */,
+				ACA4FCDE2552E48800A0F27C /* ShakingGestureRecognizer.swift in Sources */,
+				AC4CA00A253B02390015879C /* AppDelegate.swift in Sources */,
+				AC30AA86254F351B00592426 /* TickleGestureRecognizer.swift in Sources */,
+				AC5D6B432544287E00E273DF /* MonkeyGRController.swift in Sources */,
+				AC4CA02A253B07770015879C /* LongTapView.swift in Sources */,
+				AC4CA00C253B02390015879C /* SceneDelegate.swift in Sources */,
+				ACA4FCE12553FD3500A0F27C /* StarView.swift in Sources */,
+				AC4CA028253B06130015879C /* Gestures.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC4CA00F253B02390015879C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4CA010253B02390015879C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC4CA017253B023A0015879C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4CA018253B023A0015879C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC4CA01B253B023A0015879C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC4CA01C253B023A0015879C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC4CA01E253B023A0015879C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSVFBRY49T;
+				INFOPLIST_FILE = DZ13_Animation_additional_tasks/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igorNikiforov.DZ13-Animation-additional-tasks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC4CA01F253B023A0015879C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSVFBRY49T;
+				INFOPLIST_FILE = DZ13_Animation_additional_tasks/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igorNikiforov.DZ13-Animation-additional-tasks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4CA001253B02390015879C /* Build configuration list for PBXProject "DZ13_Animation_additional_tasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4CA01B253B023A0015879C /* Debug */,
+				AC4CA01C253B023A0015879C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4CA01D253B023A0015879C /* Build configuration list for PBXNativeTarget "DZ13_Animation_additional_tasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4CA01E253B023A0015879C /* Debug */,
+				AC4CA01F253B023A0015879C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC4C9FFE253B02390015879C /* Project object */;
+}

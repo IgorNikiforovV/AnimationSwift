@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9nN-lv-SXu">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--YandexGR Controller-->
+        <scene sceneID="Zff-ck-h5T">
+            <objects>
+                <viewController storyboardIdentifier="GestureRecognizerController" id="IU4-um-Vhs" customClass="YandexGRController" customModule="DZ13_Animation_additional_tasks" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pKX-Pz-Yx4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="THD-a2-PCE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ISd-QH-YhN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LEw-Th-9ft" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57" y="-346"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="GHJ-CD-Bhj">
+            <objects>
+                <tabBarController id="9nN-lv-SXu" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0Gt-sV-31f">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Kik-Ib-vt7" kind="relationship" relationship="viewControllers" id="g3G-pE-Tde"/>
+                        <segue destination="1Qd-XR-kdd" kind="relationship" relationship="viewControllers" id="m8A-gg-paV"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JyR-XW-NBB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1704" y="-22"/>
+        </scene>
+        <!--gestures-->
+        <scene sceneID="TUs-cN-OTr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kik-Ib-vt7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="gestures" image="hand.raised" catalog="system" id="6m6-De-l8l"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TUP-Hz-PCS">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IU4-um-Vhs" kind="relationship" relationship="rootViewController" id="zLp-pm-Sa7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nvp-2s-d7G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-786.95652173913049" y="-346.20535714285711"/>
+        </scene>
+        <!--gesture2-->
+        <scene sceneID="P5R-eu-b8M">
+            <objects>
+                <viewController id="1Qd-XR-kdd" customClass="MonkeyGRController" customModule="DZ13_Animation_additional_tasks" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lzd-Bs-7w1"/>
+                        <viewControllerLayoutGuide type="bottom" id="9PZ-Ti-WvA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CTv-7h-qFj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Monkey/monkey" translatesAutoresizingMaskIntoConstraints="NO" id="6ZW-qm-UIT">
+                                <rect key="frame" x="208" y="350" width="168" height="168"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="g2Q-sQ-dlf" appends="YES" id="9PS-Pd-oDh"/>
+                                    <outletCollection property="gestureRecognizers" destination="Ojq-gS-w4h" appends="YES" id="4y0-01-neH"/>
+                                    <outletCollection property="gestureRecognizers" destination="Gdh-if-0Wp" appends="YES" id="obw-c5-3ph"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Monkey/firstPalm" translatesAutoresizingMaskIntoConstraints="NO" id="GKf-w6-Tdx">
+                                <rect key="frame" x="73" y="616" width="129" height="197"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="129" id="FWd-sr-0PT"/>
+                                    <constraint firstAttribute="height" constant="197" id="kAN-ME-zXW"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Monkey/firstPalm" translatesAutoresizingMaskIntoConstraints="NO" id="7mk-gY-xca">
+                                <rect key="frame" x="122" y="629" width="129" height="197"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="197" id="1If-wR-ruz"/>
+                                    <constraint firstAttribute="width" constant="129" id="Cuz-w9-Nbp"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Monkey/secondPalm" translatesAutoresizingMaskIntoConstraints="NO" id="shT-vA-plc">
+                                <rect key="frame" x="180" y="666" width="225" height="147"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="QFa-MR-eFW"/>
+                                    <constraint firstAttribute="height" constant="147" id="cDF-sr-50u"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Monkey/moon" translatesAutoresizingMaskIntoConstraints="NO" id="ohJ-fq-6ff">
+                                <rect key="frame" x="296" y="43" width="77" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="9Kp-UG-d9U"/>
+                                    <constraint firstAttribute="width" constant="77" id="Fwr-6N-Gl3"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Monkey/sun" translatesAutoresizingMaskIntoConstraints="NO" id="gUp-Pv-ub1">
+                                <rect key="frame" x="274" y="20" width="120" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="Db4-h3-dmh"/>
+                                    <constraint firstAttribute="width" constant="120" id="f3u-ES-jqB"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Monkey/door" translatesAutoresizingMaskIntoConstraints="NO" id="9dU-3F-ZLw">
+                                <rect key="frame" x="20" y="52" width="100" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="JgS-uC-ui5"/>
+                                    <constraint firstAttribute="height" constant="120" id="Oaj-b0-0a5"/>
+                                </constraints>
+                            </imageView>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Monkey/banana" translatesAutoresizingMaskIntoConstraints="NO" id="TBi-lo-a3r">
+                                <rect key="frame" x="73" y="363" width="87" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="MNx-M3-0KM" appends="YES" id="A6q-vW-Bbw"/>
+                                    <outletCollection property="gestureRecognizers" destination="ZuE-69-jHQ" appends="YES" id="CQm-0v-ipV"/>
+                                    <outletCollection property="gestureRecognizers" destination="0Ty-tH-Bke" appends="YES" id="YQy-9I-Yb2"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Monkey/firstPalm" translatesAutoresizingMaskIntoConstraints="NO" id="LGC-fa-ceN">
+                                <rect key="frame" x="12" y="616" width="129" height="197"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="129" id="sqr-Ue-hqi"/>
+                                    <constraint firstAttribute="height" constant="197" id="xy1-bi-QxQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Monkey/car" translatesAutoresizingMaskIntoConstraints="NO" id="JYq-Ec-xQi">
+                                <rect key="frame" x="67" y="246" width="112" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.93272305434246572" blue="0.84301996150410974" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="gUp-Pv-ub1" firstAttribute="top" secondItem="CTv-7h-qFj" secondAttribute="top" constant="20" id="2gR-4g-smr"/>
+                            <constraint firstItem="ohJ-fq-6ff" firstAttribute="top" secondItem="CTv-7h-qFj" secondAttribute="top" constant="43" id="9S6-92-IRV"/>
+                            <constraint firstItem="Oea-bW-GK0" firstAttribute="trailing" secondItem="shT-vA-plc" secondAttribute="trailing" constant="9" id="FrS-nx-Cr8"/>
+                            <constraint firstItem="9dU-3F-ZLw" firstAttribute="top" secondItem="Lzd-Bs-7w1" secondAttribute="bottom" constant="8" id="Gc9-3q-fxy"/>
+                            <constraint firstItem="Oea-bW-GK0" firstAttribute="trailing" secondItem="gUp-Pv-ub1" secondAttribute="trailing" constant="20" id="Hjf-8H-Vb9"/>
+                            <constraint firstItem="7mk-gY-xca" firstAttribute="leading" secondItem="Oea-bW-GK0" secondAttribute="leading" constant="122" id="QBW-nG-MgO"/>
+                            <constraint firstItem="LGC-fa-ceN" firstAttribute="leading" secondItem="Oea-bW-GK0" secondAttribute="leading" constant="12" id="R5E-Aj-vxt"/>
+                            <constraint firstItem="GKf-w6-Tdx" firstAttribute="leading" secondItem="Oea-bW-GK0" secondAttribute="leading" constant="73" id="TVz-kn-NYw"/>
+                            <constraint firstItem="9PZ-Ti-WvA" firstAttribute="top" secondItem="GKf-w6-Tdx" secondAttribute="bottom" id="fW6-fp-UeO"/>
+                            <constraint firstItem="Oea-bW-GK0" firstAttribute="trailing" secondItem="ohJ-fq-6ff" secondAttribute="trailing" constant="41" id="h0g-5W-wfP"/>
+                            <constraint firstItem="9dU-3F-ZLw" firstAttribute="leading" secondItem="Oea-bW-GK0" secondAttribute="leading" constant="20" id="hby-U1-WIx"/>
+                            <constraint firstItem="9PZ-Ti-WvA" firstAttribute="top" secondItem="LGC-fa-ceN" secondAttribute="bottom" id="lpG-B9-tFp"/>
+                            <constraint firstItem="9PZ-Ti-WvA" firstAttribute="top" secondItem="7mk-gY-xca" secondAttribute="bottom" constant="-13" id="snf-J2-iRl"/>
+                            <constraint firstItem="9PZ-Ti-WvA" firstAttribute="top" secondItem="shT-vA-plc" secondAttribute="bottom" id="ynj-hy-mrs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Oea-bW-GK0"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="gesture2" image="m.circle" catalog="system" id="RRv-k9-agb"/>
+                    <connections>
+                        <outlet property="bananaImageView" destination="TBi-lo-a3r" id="xpm-a3-6wj"/>
+                        <outlet property="bananaPan" destination="0Ty-tH-Bke" id="0fT-90-lNy"/>
+                        <outlet property="carImageView" destination="JYq-Ec-xQi" id="Zea-Tj-rgH"/>
+                        <outlet property="doorImageView" destination="9dU-3F-ZLw" id="UEb-cv-qUo"/>
+                        <outlet property="monkeyImageView" destination="6ZW-qm-UIT" id="71A-EA-p1n"/>
+                        <outlet property="monkeyPan" destination="Gdh-if-0Wp" id="dqc-A8-hgo"/>
+                        <outlet property="moonImageView" destination="ohJ-fq-6ff" id="TgQ-SC-AZ4"/>
+                        <outlet property="moonRightConstraint" destination="h0g-5W-wfP" id="rX8-y6-3MZ"/>
+                        <outlet property="palmImageView" destination="7mk-gY-xca" id="WmH-x7-7kW"/>
+                        <outlet property="sunImageView" destination="gUp-Pv-ub1" id="kVw-Er-nnu"/>
+                        <outlet property="sunRightConstraint" destination="Hjf-8H-Vb9" id="ye1-xa-g4Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MJM-9Z-CpQ" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="MNx-M3-0KM">
+                    <connections>
+                        <action selector="handlePinch:" destination="1Qd-XR-kdd" id="Zvz-ZP-OKi"/>
+                        <outlet property="delegate" destination="1Qd-XR-kdd" id="mL2-sh-15A"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="g2Q-sQ-dlf">
+                    <connections>
+                        <action selector="handlePinch:" destination="1Qd-XR-kdd" id="PKk-xm-ur8"/>
+                        <outlet property="delegate" destination="1Qd-XR-kdd" id="k3I-Tc-LKY"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="ZuE-69-jHQ">
+                    <connections>
+                        <action selector="handleRotate:" destination="1Qd-XR-kdd" id="Y1R-OZ-SBw"/>
+                        <outlet property="delegate" destination="1Qd-XR-kdd" id="8mX-Iy-5BP"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="Ojq-gS-w4h">
+                    <connections>
+                        <action selector="handleRotate:" destination="1Qd-XR-kdd" id="D10-mD-NVy"/>
+                        <outlet property="delegate" destination="1Qd-XR-kdd" id="cHS-tm-Yqc"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="0Ty-tH-Bke">
+                    <connections>
+                        <action selector="handlePan:" destination="1Qd-XR-kdd" id="AFr-cy-FPQ"/>
+                        <outlet property="delegate" destination="1Qd-XR-kdd" id="WZA-hK-CDv"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Gdh-if-0Wp">
+                    <connections>
+                        <action selector="handlePan:" destination="1Qd-XR-kdd" id="Oyj-dW-iVK"/>
+                        <outlet property="delegate" destination="1Qd-XR-kdd" id="0Wx-mC-vtT"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-42.028985507246382" y="308.70535714285711"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Monkey/banana" width="200" height="200"/>
+        <image name="Monkey/car" width="92" height="66"/>
+        <image name="Monkey/door" width="320" height="503"/>
+        <image name="Monkey/firstPalm" width="600" height="1015"/>
+        <image name="Monkey/monkey" width="300" height="400"/>
+        <image name="Monkey/moon" width="68" height="65"/>
+        <image name="Monkey/secondPalm" width="625" height="589.5"/>
+        <image name="Monkey/sun" width="319" height="320"/>
+        <image name="hand.raised" catalog="system" width="128" height="128"/>
+        <image name="m.circle" catalog="system" width="128" height="121"/>
+    </resources>
+</document>
