@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="THD-a2-PCE"/>
+                        <viewLayoutGuide key="safeArea" id="5qZ-Rb-UTx"/>
                     </view>
                     <navigationItem key="navigationItem" id="ISd-QH-YhN"/>
                 </viewController>
@@ -64,10 +64,6 @@
         <scene sceneID="P5R-eu-b8M">
             <objects>
                 <viewController id="1Qd-XR-kdd" customClass="MonkeyGRController" customModule="DZ13_Animation_additional_tasks" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Lzd-Bs-7w1"/>
-                        <viewControllerLayoutGuide type="bottom" id="9PZ-Ti-WvA"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="CTv-7h-qFj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -150,20 +146,20 @@
                         <constraints>
                             <constraint firstItem="gUp-Pv-ub1" firstAttribute="top" secondItem="CTv-7h-qFj" secondAttribute="top" constant="20" id="2gR-4g-smr"/>
                             <constraint firstItem="ohJ-fq-6ff" firstAttribute="top" secondItem="CTv-7h-qFj" secondAttribute="top" constant="43" id="9S6-92-IRV"/>
-                            <constraint firstItem="Oea-bW-GK0" firstAttribute="trailing" secondItem="shT-vA-plc" secondAttribute="trailing" constant="9" id="FrS-nx-Cr8"/>
-                            <constraint firstItem="9dU-3F-ZLw" firstAttribute="top" secondItem="Lzd-Bs-7w1" secondAttribute="bottom" constant="8" id="Gc9-3q-fxy"/>
-                            <constraint firstItem="Oea-bW-GK0" firstAttribute="trailing" secondItem="gUp-Pv-ub1" secondAttribute="trailing" constant="20" id="Hjf-8H-Vb9"/>
-                            <constraint firstItem="7mk-gY-xca" firstAttribute="leading" secondItem="Oea-bW-GK0" secondAttribute="leading" constant="122" id="QBW-nG-MgO"/>
-                            <constraint firstItem="LGC-fa-ceN" firstAttribute="leading" secondItem="Oea-bW-GK0" secondAttribute="leading" constant="12" id="R5E-Aj-vxt"/>
-                            <constraint firstItem="GKf-w6-Tdx" firstAttribute="leading" secondItem="Oea-bW-GK0" secondAttribute="leading" constant="73" id="TVz-kn-NYw"/>
-                            <constraint firstItem="9PZ-Ti-WvA" firstAttribute="top" secondItem="GKf-w6-Tdx" secondAttribute="bottom" id="fW6-fp-UeO"/>
-                            <constraint firstItem="Oea-bW-GK0" firstAttribute="trailing" secondItem="ohJ-fq-6ff" secondAttribute="trailing" constant="41" id="h0g-5W-wfP"/>
-                            <constraint firstItem="9dU-3F-ZLw" firstAttribute="leading" secondItem="Oea-bW-GK0" secondAttribute="leading" constant="20" id="hby-U1-WIx"/>
-                            <constraint firstItem="9PZ-Ti-WvA" firstAttribute="top" secondItem="LGC-fa-ceN" secondAttribute="bottom" id="lpG-B9-tFp"/>
-                            <constraint firstItem="9PZ-Ti-WvA" firstAttribute="top" secondItem="7mk-gY-xca" secondAttribute="bottom" constant="-13" id="snf-J2-iRl"/>
-                            <constraint firstItem="9PZ-Ti-WvA" firstAttribute="top" secondItem="shT-vA-plc" secondAttribute="bottom" id="ynj-hy-mrs"/>
+                            <constraint firstItem="NCJ-q5-vrV" firstAttribute="trailing" secondItem="shT-vA-plc" secondAttribute="trailing" constant="9" id="FrS-nx-Cr8"/>
+                            <constraint firstItem="9dU-3F-ZLw" firstAttribute="top" secondItem="NCJ-q5-vrV" secondAttribute="top" constant="8" id="Gc9-3q-fxy"/>
+                            <constraint firstItem="NCJ-q5-vrV" firstAttribute="trailing" secondItem="gUp-Pv-ub1" secondAttribute="trailing" constant="20" id="Hjf-8H-Vb9"/>
+                            <constraint firstItem="7mk-gY-xca" firstAttribute="leading" secondItem="NCJ-q5-vrV" secondAttribute="leading" constant="122" id="QBW-nG-MgO"/>
+                            <constraint firstItem="LGC-fa-ceN" firstAttribute="leading" secondItem="NCJ-q5-vrV" secondAttribute="leading" constant="12" id="R5E-Aj-vxt"/>
+                            <constraint firstItem="GKf-w6-Tdx" firstAttribute="leading" secondItem="NCJ-q5-vrV" secondAttribute="leading" constant="73" id="TVz-kn-NYw"/>
+                            <constraint firstItem="NCJ-q5-vrV" firstAttribute="bottom" secondItem="GKf-w6-Tdx" secondAttribute="bottom" id="fW6-fp-UeO"/>
+                            <constraint firstItem="NCJ-q5-vrV" firstAttribute="trailing" secondItem="ohJ-fq-6ff" secondAttribute="trailing" constant="41" id="h0g-5W-wfP"/>
+                            <constraint firstItem="9dU-3F-ZLw" firstAttribute="leading" secondItem="NCJ-q5-vrV" secondAttribute="leading" constant="20" id="hby-U1-WIx"/>
+                            <constraint firstItem="NCJ-q5-vrV" firstAttribute="bottom" secondItem="LGC-fa-ceN" secondAttribute="bottom" id="lpG-B9-tFp"/>
+                            <constraint firstItem="NCJ-q5-vrV" firstAttribute="bottom" secondItem="7mk-gY-xca" secondAttribute="bottom" constant="-13" id="snf-J2-iRl"/>
+                            <constraint firstItem="NCJ-q5-vrV" firstAttribute="bottom" secondItem="shT-vA-plc" secondAttribute="bottom" id="ynj-hy-mrs"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Oea-bW-GK0"/>
+                        <viewLayoutGuide key="safeArea" id="NCJ-q5-vrV"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="gesture2" image="m.circle" catalog="system" id="RRv-k9-agb"/>
                     <connections>
